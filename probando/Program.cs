@@ -166,7 +166,7 @@ class Program
 
         Console.WriteLine($"Se han ingresado {unidades} unidades");
         Console.WriteLine($"Se han ingresado S/ {total.ToString("0.00")} en caja");
-
+        Console.WriteLine("================================");
         // Actualizar estadísticas del producto
         productos[0].Vendidos += unidades;
         productos[0].Caja += total;
